@@ -1,17 +1,65 @@
 # Final-Project-Statistical-Modelling-with-Python
 
 ## Project/Goals
-(fill in your description and goals here)
 
+(1) To gather data from different sources using the API Keys.
+
+(2) Join the data obtained and create a data base in SQlite
+
+(3) Create tables for data and arrive at a final result for further analysis.
+
+(4) Perform an EDA
+
+(5) Deveop a statistiacl model to identify the correlation and prediction between dependent and independent variable.
+              
 ## Process
-### (your step 1)
-### (your step 2)
+### (1) Connecting to CityBikes API
+
+### (2) Connecting to Foursquare and Yelp APIs
+
+## (3) Joining Data
+
+## (4) Building a Model
 
 ## Results
-(fill in what you found about the comparative quality of API coverage in your chosen area and the results of your model.)
+
+---> Created a Linear Regression Model between 'Bikes Available' (dependent variable) and ['Distance', 'Rating'] (independent variables)
+
+
+
+#### Interpretation of the model
+(1) Model Fit: Adj. R-squared is very low, i.e it only (0.2)% of variance in Bikes Available is explained by the independent variable
+
+(2) if we remove rating from independent variable and fit the model it shows that the distance doesn't explaind the variance of bikes available at all.
+
+(3) 0.2% variance is for rating only : it does have effect on Bikes Avaialble(but very little)
+
+(4) we can conclude that ther model is very poor and we will need more data to further check relations between variables
+
+
+#### Even after removing Rating(indepedent variable) and review_counts(independent variable), there is no/little effect of distance on Bikes Available for each Sations
+
 
 ## Challenges 
-(discuss challenges you faced in the project)
+
+---> Gathering Data from differenet APIs:
+                        Different APIs option available to gather data from:
+                                (1) Foursquare:
+                                            (1) Need to provide precise parameters for POI(points of interest)
+                                            (2) Data mixed with null values
+                                            (3) Can make multiple  requests
+                                 (2)Yelp:
+                                            (1) Detailed response with just including interested point in query
+                                            (2) More precise data with no nulls or duplicated values
+                                            (3) Very Limited API requests (Have to write complete code as to not run out of request)
+
+---> It is Difficult to chose from data available from different sources:
+
+                            We Worked with Data Available from YELP API and considered few parameters, but when trying to run type the requests the max request limit has reached.
+                                
+ 
+
 
 ## Future Goals
-(what would you do if you had more time?)
+
+![Alt text](<More time.png>)
