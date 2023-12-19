@@ -39,7 +39,7 @@
 
 Even after removing Rating(indepedent variable) and review_counts(independent variable), there is no/little effect of distance on Bikes Available for each Sations
 
-Note: All the steps are highlighted in the files under the folders data, images and notebooks.
+Note: All the steps are highlighted in the files under the folders data, images and notebooks. I couldn't attach the .CSV file for the results, so I attache dthe compressed version which can be downloaded to get the originakl file.
 
 # Challenges 
 
