@@ -37,11 +37,11 @@
 (4) we can conclude that ther model is very poor and we will need more data to further check relations between variables
 
 
-# Even after removing Rating(indepedent variable) and review_counts(independent variable), there is no/little effect of distance on Bikes Available for each Sations
+Even after removing Rating(indepedent variable) and review_counts(independent variable), there is no/little effect of distance on Bikes Available for each Sations
 
-# Note: All the steps are highlighted in the files under the folders data, images and notebooks.
+Note: All the steps are highlighted in the files under the folders data, images and notebooks.
 
-## Challenges 
+# Challenges 
 
 Gathering Data from differenet APIs:
 Different APIs option available to gather data from:
@@ -55,6 +55,6 @@ Different APIs option available to gather data from:
 (3) Very Limited API requests (Have to write complete code as to not run out of request)
 
                                 
-  ## Future Goals
+  # Future Goals
 I worked on the point of interest variables and identified that they have very low influence on the dependent varable.
 The next thing I would focus on other stats models to identify the variable that inluences dependent variable.
